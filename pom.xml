@@ -11,7 +11,7 @@
 	<groupId>com.devm</groupId>
 	<artifactId>pokemon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>pokemon</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -44,6 +44,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		  </dependency>
 
 	</dependencies>
 
